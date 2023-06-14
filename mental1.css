@@ -1,0 +1,252 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+    background-image: linear-gradient(to bottom right, lightcoral, blue);
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    position: static;
+  }
+  
+  nav img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  h1{
+    position: relative;
+    left: 70px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    flex-direction: row;
+  }
+  
+  .left-section {
+    width: 50%;
+  }
+  
+  .right-section {
+    width: 40%;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .left-section img {
+    width: 1300px;
+    height: 600px;
+    object-fit: cover;
+    background-image: cover;
+  }
+  .content1{
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+  }
+  /* styles.css */
+/* ...previous styles... */
+
+/*   
+  .box-img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+  } */
+  .final{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .comm,.chat,.aichat{
+    height: 500px;
+    width: 350px;
+    background-color: lightcoral;
+    margin: 3px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .comm{
+    background-image: url(community.jpg);
+    background-size: cover;
+  }
+.aichat{
+  background-image: url(aichat.jpg);
+    background-size: cover;
+}
+  .chat{
+    background-image: url(chatspace2.jfif);
+    background-size: cover;
+
+  }
+  .last{
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+  .contact,.don,.social{
+    height: 70px;
+    width: 350px;
+    background-color: lightcoral;
+    background-image: linear-gradient(to bottom right, lightcoral, rgb(133, 133, 235));
+    margin: 3px;
+  }
+  .boxcont,.boxco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .box0{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(anxiety.webp);
+    background-size: cover;
+  }
+  .box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(stress.avif);
+    background-size: cover;
+  }
+  .last{
+    font-size: 45px;
+    text-align: center;
+    top:25px;
+  }
+  .boxcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .box2{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-image: url(trauma.jpg);
+        background-size: cover;
+  }
+  .box3{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-image: url(depression.jpg);
+        background-size: cover;
+  }
+  .box4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(ocd.webp);
+    background-size: cover;
+  }
+  .box5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(bipolar.jpg);
+    background-size: cover;
+  }
+  .box6{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(adhd.webp);
+    background-size: cover;
+  }
+  .box7{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(relationshipissue.jpg);
+    background-size: cover;
+  }
+  .box8{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(teenage\ issues.jpg);
+    background-size: cover;
+  }
+  .box9{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(grief&loss.jpg);
+    background-size: cover;
+  }
+  .box10{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-image: url(dimentia.webp);
+        background-size: cover;
+  }
+  .box11{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(insomnia.webp);
+    background-size: cover;
+  }
+  footer{
+    height: 20px;
+    bottom: 0vh;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(240, 220, 220);
+    text-align: center;
+    background-image: linear-gradient(to bottom right, lightcoral, rgb(79, 89, 228));
+}
